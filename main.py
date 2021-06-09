@@ -1,7 +1,7 @@
 import json
 
 
-class JsonWriter:
+class JsonArrayFileWriter:
     def __init__(self, filepath, indent=None):
         self.filepath = filepath
         self.indent = indent
